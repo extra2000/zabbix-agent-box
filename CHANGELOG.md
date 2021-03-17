@@ -1,5 +1,22 @@
 # Changelog
 
+## [2.1.0](https://github.com/extra2000/zabbix-agent-box/compare/v2.0.0...v2.1.0) (2021-03-17)
+
+
+### Features
+
+* **submodule:** Update `zabbix-agent-formula` to [v2.0.2](https://github.com/extra2000/zabbix-agent-formula/releases/tag/v2.0.2) ([15a33cc](https://github.com/extra2000/zabbix-agent-box/commit/15a33cc1556d714b6bc2b369ea2277d3b3e103d6))
+
+
+### Fixes
+
+* **/etc/minion:** Using new style for `module.run` ([b69b0b3](https://github.com/extra2000/zabbix-agent-box/commit/b69b0b300ee6eac8d97d1905fc7ccf9b42d95aec))
+
+
+### Styles
+
+* **pillar/zabbix_agent.sls.example:** Fix double quote placements ([9e4dff7](https://github.com/extra2000/zabbix-agent-box/commit/9e4dff70c1e6fc823ebd3cfa75b5e187369bc92f))
+
 ## [2.0.0](https://github.com/extra2000/zabbix-agent-box/compare/v1.0.0...v2.0.0) (2021-03-08)
 
 
