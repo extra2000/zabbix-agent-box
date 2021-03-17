@@ -1,5 +1,22 @@
 # Changelog
 
+## [3.0.0](https://github.com/extra2000/zabbix-agent-box/compare/v2.1.0...v3.0.0) (2021-03-17)
+
+
+### ⚠ BREAKING CHANGES
+
+* **submodule:** Deployment has changed to Podman pod only
+
+### Features
+
+* **submodule:** Add [podman-formula v2.2.1](https://github.com/extra2000/podman-formula/releases/tag/v2.2.1) ([840df1a](https://github.com/extra2000/zabbix-agent-box/commit/840df1aea444bfbe5b025626eba970c203d97b65))
+* **submodule:** Update `zabbix-agent-formula` to [v3.0.0](https://github.com/extra2000/zabbix-agent-formula/releases/tag/v3.0.0) ([568c39b](https://github.com/extra2000/zabbix-agent-box/commit/568c39bb71c7150b99cc7979266231f6bdaa4596))
+
+
+### Documentations
+
+* **pillar/zabbix_agent.sls.example:** Add `storage_devices`, `storage_mounts`, and booleans to enable type of checks ([2210c33](https://github.com/extra2000/zabbix-agent-box/commit/2210c33de9cf448e5004dd59468cb868a3db0a5f))
+
 ## [2.1.0](https://github.com/extra2000/zabbix-agent-box/compare/v2.0.0...v2.1.0) (2021-03-17)
 
 
