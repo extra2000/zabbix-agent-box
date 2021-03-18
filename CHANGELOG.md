@@ -1,5 +1,16 @@
 # Changelog
 
+## [4.0.0](https://github.com/extra2000/zabbix-agent-box/compare/v3.0.0...v4.0.0) (2021-03-18)
+
+
+### ⚠ BREAKING CHANGES
+
+* **submodule:** Pillar format for `salt/roots/pillar/zabbix_agent.sls.example` has changed.
+
+### Features
+
+* **submodule:** Update `zabbix-agent-formula` to [v4.0.0](https://github.com/extra2000/zabbix-agent-formula/releases/tag/v4.0.0) ([0de013e](https://github.com/extra2000/zabbix-agent-box/commit/0de013edb2537278c57380b3cdd8fd2b80145820))
+
 ## [3.0.0](https://github.com/extra2000/zabbix-agent-box/compare/v2.1.0...v3.0.0) (2021-03-17)
 
 
